@@ -62,8 +62,8 @@ nav a.current-page {
     border: 5px dashed #412821;
     align-items: center;
     justify-items: center;
-    margin: 10px;
-    width: 95%;
+    margin: 10px auto;
+    width: 90%;
     padding: 5px;
 }
 
@@ -77,8 +77,8 @@ nav a.current-page {
     border: 5px dashed #412821;
     align-items: center;
     justify-items: center;
-    margin: 10px;
-    width: 95%;
+    margin: 10px auto;
+    width: 90%;
     padding: 5px;
 }
 
