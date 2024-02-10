@@ -54,10 +54,11 @@ nav a.current-page {
 
 .gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border: 5px dashed #412821;
     padding: 10px;
     align-items: center;
+    justify-items: center;
     margin: 10px;
-    width: 90%;
+    width: 50%;
 }
