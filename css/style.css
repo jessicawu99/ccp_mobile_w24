@@ -4,6 +4,9 @@ body{
     background-color: #d4e9c2;
     margin: 1%;
 }
+nav{
+    font-size: 24px;
+}
 h1{
     font-size: 60px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -78,3 +81,11 @@ nav a.current-page {
     width: 95%;
     padding: 5px;
 }
+
+@media screen and (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
