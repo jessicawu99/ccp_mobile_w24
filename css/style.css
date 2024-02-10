@@ -60,5 +60,16 @@ nav a.current-page {
     align-items: center;
     justify-items: center;
     margin: 10px;
-    width: 50%;
+    width: 90%;
+}
+
+.gallery-travel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px dashed #412821;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+    margin: 10px;
+    width: 90%;
 }
