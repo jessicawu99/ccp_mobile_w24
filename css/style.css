@@ -23,10 +23,11 @@ p{
     line-height: 1.5;
 }
 img{
-    border: 5px solid rgb(47, 62, 18);
-    padding: 10px;
+    border: 3px solid rgb(47, 62, 18);
+    padding: 5px;
     margin: 20px;
     border-top-right-radius: 30px;
+    width: 90%;
 }
 ul{
     display: list-item;
@@ -56,20 +57,24 @@ nav a.current-page {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border: 5px dashed #412821;
-    padding: 10px;
     align-items: center;
     justify-items: center;
-    margin: 10px;
-    width: 90%;
+    margin: 10px auto;
+    width: 95%;
+    padding: 5px;
 }
 
-.gallery-travel {
+.gallery video {
+    width: 95%;
+}
+
+.gallery-landscape {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     border: 5px dashed #412821;
-    padding: 10px;
     align-items: center;
     justify-items: center;
-    margin: 10px;
-    width: 90%;
+    margin: 10px auto;
+    width: 95%;
+    padding: 5px;
 }
