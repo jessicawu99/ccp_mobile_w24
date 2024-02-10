@@ -35,11 +35,29 @@ ul{
 }
 
 .skip-to-content {
-    left: 50%;
     position: absolute;
-    transform: translateY(-100%);
+    top: -40px;
+    left: 0;
+    padding: 10px;
 }
 
-.skip-to-content:focus{
-    
+.skip-to-content:focus {
+    position: relative;
+    top: 0;
+}
+
+nav a.current-page {
+    background-color: #0a380a;
+    color: #d4e9c2;
+    font-weight: bold;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 5px dashed #412821;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+    width: 90%;
 }
